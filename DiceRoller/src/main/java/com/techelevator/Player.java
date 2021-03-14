@@ -9,6 +9,7 @@ public class Player {
 	private Integer perception = 0;
 	private Hand playerHand = new Hand();
 	private D20 p20 = new D20();
+	private int ARP = 3;
 
 	public Player(int playerNumber, String name) {
 		this.playerNumber = playerNumber;
